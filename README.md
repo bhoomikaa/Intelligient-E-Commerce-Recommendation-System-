@@ -18,7 +18,7 @@ Each model can be selected in the Streamlit sidebar.
 ---
 
 ## 📂 Project structure
-ecom-rec/
+
 ![alt text](image.png)
 
 ---
