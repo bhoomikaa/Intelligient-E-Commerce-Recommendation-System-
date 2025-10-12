@@ -19,29 +19,7 @@ Each model can be selected in the Streamlit sidebar.
 
 ## 📂 Project structure
 ecom-rec/
-├── app/
-│ └── streamlit_app.py ← Streamlit UI (model selector)
-├── data/
-│ └── updated_ratings_with_reviews.csv
-├── notebooks/
-├── scripts/
-│ ├── knn_smoke.py
-│ ├── svd_smoke.py
-│ └── als_smoke.py
-├── src/
-│ ├── init.py
-│ ├── data_utils.py
-│ └── models/
-│ ├── popularity.py
-│ ├── knn_surprise.py
-│ ├── svd_surprise.py
-│ └── als_implicit.py
-├── .streamlit/
-│ └── config.toml
-├── requirements.txt
-├── environment.yml
-└── README.md
-
+![alt text](image.png)
 
 ---
 
