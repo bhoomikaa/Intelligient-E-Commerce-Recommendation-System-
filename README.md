@@ -18,28 +18,28 @@ Each model can be selected in the Streamlit sidebar.
 ---
 ecom-rec/
 ├── app/
-│ └── streamlit_app.py # Streamlit UI (model selector)
+│   └── streamlit_app.py        # Streamlit UI (model selector)
 ├── data/
-│ └── updated_ratings_with_reviews.csv
+│   └── updated_ratings_with_reviews.csv
 ├── notebooks/
 ├── scripts/
-│ ├── knn_smoke.py
-│ ├── svd_smoke.py
-│ └── als_smoke.py
+│   ├── knn_smoke.py
+│   ├── svd_smoke.py
+│   └── als_smoke.py
 ├── src/
-│ ├── init.py
-│ ├── data_utils.py
-│ ├── models/
-│ ├── popularity.py
-│ ├── knn_surprise.py
-│ ├── svd_surprise.py
-│ └── als_implicit.py
+│   ├── __init__.py
+│   ├── data_utils.py
+│   ├── models/
+│   ├── popularity.py
+│   ├── knn_surprise.py
+│   ├── svd_surprise.py
+│   └── als_implicit.py
 ├── .streamlit/
-│ └── config.toml
+│   └── config.toml
 ├── requirements.txt
 ├── environment.yml
 └── README.md
----
+------
 
 ## 📊 Dataset
 Place your CSV inside the `data/` folder.  
