@@ -16,9 +16,9 @@ It reproduces the structure and flow of the original project while keeping it Wi
 Each model can be selected in the Streamlit sidebar.
 
 ---
-ecom-rec/
-├── app/
-│   └── streamlit_app.py        # Streamlit UI (model selector)
+ecom-rec/    
+├── app/    
+│   └── streamlit_app.py        # Streamlit UI (model selector)      
 ├── data/
 │   └── updated_ratings_with_reviews.csv
 ├── notebooks/
@@ -39,7 +39,7 @@ ecom-rec/
 ├── requirements.txt
 ├── environment.yml
 └── README.md
-------
+
 
 ## 📊 Dataset
 Place your CSV inside the `data/` folder.  
